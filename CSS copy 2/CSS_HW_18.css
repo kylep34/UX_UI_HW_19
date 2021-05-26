@@ -1,0 +1,129 @@
+
+#skillBox /* Creates and places the grey "Skill" divider */
+{
+    position: absolute;
+    top:0;
+    height: 254px;
+    width: 1258px;
+    max-width: 1258px;
+    margin: 1434px 30px 45px 152px;
+    background-color: #E5E5E5;
+    z-index: -1;
+}
+
+.skillsIntro /* Placement of the text for the "Skills" section heading*/
+{
+    margin:150px 31px 20px 20px;
+    color: black;
+}
+
+h4 /* Placement of the text 'Skills'*/ 
+{
+    margin-left:1063.72px;
+    margin-right: 30.28px;
+    margin-top: 150px;
+    color: black;
+}
+
+h5 /* Placement of the text 'UX'*/
+{
+    color: rgba(0, 0, 0, 0.35);
+    font-weight: 400;
+    font-size: 144px;
+    margin-top: 107px;
+    margin-right: 159px;
+    margin-left: 915px;
+}
+
+.flexContainer
+{
+    margin: 1736px 232px 45px 172px;
+    width: 1036px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.uxSkills /* Placement & text modifiers for items in the list of skills */
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}.skillsList
+{
+    width: 1036px;
+    height: 520px;
+    margin-left: 0px;
+}
+
+.caseStudies /* Placement of the text 'Case Studies' and the underline*/
+{
+    top: 2328px;
+    height: 72px;
+    width: 440px;
+    color: black;
+    margin: 50px 903px 1321px 118px;
+}.underline
+{
+    height: 2px;
+    width: 1238px;
+    position: absolute;
+    top:2328px;
+    margin:121px 83.99px 1321px 118px; 
+    background-color: black;
+}
+
+.workbox /* Placement of the "Case Study" section background */
+{
+    position: absolute;
+    top: 0px;
+    height: 1443px;
+    width: 100%;
+    margin-top: 2328px;
+    margin-bottom: 1077px; 
+    background: #C4C4C4;
+}
+
+
+
+.caseStudy,#caseStudy2,#caseStudy3 /* Placement and formatting of the individual case study tiles */
+{
+    position: absolute;
+    top: 2328px;
+    height: 265px;
+    width: 1204px;
+    margin-left: 98px;
+    margin-right: 138px;
+    background: #E5E5E5;
+    z-index: 1;
+    margin-top: 192px 
+}
+
+.cs1,.cs2,.cs3 /* Placement of the pictures for each case study */
+{
+    position: absolute;
+    height:307px; 
+    width: 388px;
+    margin:10px 801px -81px 15px;
+    border: 1px solid black;
+    z-index: 2;
+}
+pre /* Formatting of the case study text*/
+{
+    color: black;
+    font-size: 24px;
+    height: 219px;
+    width: 716px;
+    margin: 10px 60px 7px 250px;
+}
+
+#caseStudy2 /* Placement of the text for the second case study */
+{
+    margin-top: 609px;
+    margin-bottom: 598px;
+}
+#caseStudy3 /* Placement of the text for the third case study */
+{
+    margin-top: 1026px ;
+    margin-bottom: 181px ;
+}
